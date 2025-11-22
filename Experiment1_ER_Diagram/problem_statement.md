@@ -89,7 +89,7 @@ The Central Library wants to manage book lending and cultural events.
 |Member → Loan|1:N|Partial|A member can receive many loans; each loan is issued to one member.|
 |Event → Room|M:N|Partial|An event can be held in multiple rooms; each room can host multiple events.|
 |Member → Event|M:N|Partial|A member can register for multiple events; an event can have many members.|
-|Author → Event|M:N|Partial|Speakers or authors can join multiple events; each event can feature many speakers.
+|Author → Event|M:N|Partial|Speakers or authors can join multiple events; each event can feature many speakers. 
 
 ### Assumptions
 - The library assumes that members provide valid and accurate personal details during registration.
